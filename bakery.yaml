@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [LondrinaShadow-Regular.ttf.ttx, src/LondrinaShadow-Regular.otf.ttx,
+  src/LondrinaShadow-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
